@@ -4,10 +4,10 @@
 set -x
 set -e
 
-(cd packages/gestalt-design-tokens && yarn build)
-(cd packages/gestalt && yarn build)
-(cd packages/gestalt-charts && yarn build)
-(cd packages/gestalt-datepicker && yarn build)
-(cd docs && yarn build-metadata)
+# (cd packages/gestalt-design-tokens && pnpm build)
+# (cd packages/gestalt && pnpm build)
+# (cd packages/gestalt-charts && pnpm build)
+# (cd packages/gestalt-datepicker && pnpm build)
+# (cd docs && pnpm build-metadata)
 (cd docs && (npx next dev))
 
