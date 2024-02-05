@@ -41,6 +41,7 @@
     "babel-plugin-inline-react-svg": "^2.0.1",
     "blueimp-md5": "^2.18.0",
     "chalk": "^4.1.0",
+    "concurrently": "^8.2.2",
     "css-modules-flow-types-cli": "^2.0.0",
     "cssnano": "^6.0.3",
     "eslint": "8.23.0",
