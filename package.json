@@ -194,7 +194,8 @@
     "url": "https://github.com/pinterest/gestalt"
   },
   "stackblitz": {
-    "startCommand": "./scripts/stackblitz.sh"
+    "startCommand": false,
+    "installDependencies": false
   },
   "sideEffects": false
 }
